@@ -1,0 +1,20 @@
+API KEY unsplash
+
+Search photos (setiap data yang dipanggil, memiliki 1 foto)
+note: 
+  per_page adalah jumlah data yang di tampilkan, dan dapat diubah
+  client_id= API KEY
+  query = keyword yang dicari
+
+https://api.unsplash.com/search/photos?per_page=20&query=office&client_id=a9f020ade0a6ba6d2ba84ba91345fb4e73fa64ad1c0b6221233b55c6f12c3b29
+
+
+
+
+search collectiion  (setiap data yang dipanggil, memiliki foto lebih dari 1)
+note: 
+  per_page adalah jumlah data yang di tampilkan, dan dapat diubah
+  client_id= API KEY
+  query = keyword yang dicari
+
+https://api.unsplash.com/search/collections?per_page=20&query=office&client_id=a9f020ade0a6ba6d2ba84ba91345fb4e73fa64ad1c0b6221233b55c6f12c3b29
